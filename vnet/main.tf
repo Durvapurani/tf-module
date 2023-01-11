@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "demo-tf" {
+resource "resource_group_name" "demo-tf" {
   name     = "demo-tf"
   location = "West Europe"
 }
